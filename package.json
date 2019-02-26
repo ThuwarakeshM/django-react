@@ -3,9 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "watch": {
+    "dev": {
+      "patterns": [
+        "src"
+      ]
+    }
+  },
   "scripts": {
     "dev": "webpack --mode development ./src/index.js --output ./static/frontend/main.js",
-    "build": "webpack --mode production ./src/index.js --output ./static/frontend/main.js"
+    "build": "webpack --mode production ./src/index.js --output ./static/frontend/main.js",
+    "watch": "npm-watch"
   },
   "keywords": [],
   "author": "Thuwarakesh M",
@@ -21,5 +29,8 @@
     "react-dom": "^16.8.3",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "npm-watch": "^0.6.0"
   }
 }
