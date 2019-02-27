@@ -11,8 +11,8 @@
     }
   },
   "scripts": {
-    "dev": "webpack --mode development ./src/index.js --output ./static/django-react/main.js",
-    "build": "webpack --mode production ./src/index.js --output ./static/django-react/main.js",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
     "watch": "npm-watch"
   },
   "keywords": [],

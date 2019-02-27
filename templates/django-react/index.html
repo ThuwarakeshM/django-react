@@ -1,4 +1,5 @@
 {% extends 'django-react/base.html' %}
+{% load static %}
 
 {% block title %}
 <title>Testing</title>
@@ -6,4 +7,9 @@
 {% endblock title %}
 
 {% block content %}
+<div id='app'></div>
 {% endblock content %}
+
+{% block extra_script %}
+<script src="{% static 'django-react/home.js' %}"
+{% endblock extra_script %}
