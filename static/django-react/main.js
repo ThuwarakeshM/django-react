@@ -104,7 +104,7 @@ eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./sr
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./App.scss */ \"./src/App.scss\");\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__(/*! ./App.scss */ \"./src/App.scss\");\n\nconsole.log('Main Running!');\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
