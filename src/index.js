@@ -1,3 +1,15 @@
-require('./App.scss');
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
-console.log('Main Running!');
+class App extends Component {
+  render() {
+    return (
+      <h1>Hello World</h1>
+    )
+  }
+}
+
+ReactDOM.render(
+    <App />,
+    document.getElementById('app')
+  );
