@@ -8,7 +8,7 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    path: __dirname + '/static/django-react'
+    path: __dirname + '/static/web'
   },
   module: {
     rules: [
